@@ -54,7 +54,7 @@ Raw individual-level observations from the *C. elegans* reproduction experiment,
 - Six rows (worm_ids 501–506) with `B`, `strain`, and `diet` all NA
 - Two rows with `worm_id = NA`
 - Case inconsistencies in `strain` ("daf" vs "DAF") and `diet` ("EODF" vs "eodf")
-- Trailing whitespace in some `strain` values ("empty\_vector ")
+- Trailing whitespace in some `strain` values ("empty_vector " with trailing space)
 
 ---
 

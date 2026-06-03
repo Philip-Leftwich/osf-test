@@ -128,7 +128,7 @@ dplyr::filter((strain == "daf" | strain == "empty_vector") & !is.na(diet))
 **Fix:**
 ```r
 # Exclude rows where total offspring was not recorded (equipment failure, worm escape)
-full_dat <- dat2 |> tidyr::drop_na(total_offspring)
+full_dat_df <- dat2_df |> tidyr::drop_na(total_offspring)
 ```
 
 ---
